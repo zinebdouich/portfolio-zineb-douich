@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <link rel="stylesheet" href="styles/projet.css" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Projet Stabilisation Laser</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            line-height: 1.6;
+            background-color: #f9f9f9;
+            color: #333;
+        }
+        h1 {
+            color: #2c3e50;
+            border-bottom: 3px solid #2980b9;
+            padding-bottom: 10px;
+        }
+        strong {
+            color: #2980b9;
+        }
+        ul {
+            margin-top: 0;
+            margin-bottom: 20px;
+        }
+        li {
+            margin-left: 20px;
+            margin-bottom: 5px;
+        }
+        .container {
+            background-color: white;
+            padding: 25px 30px;
+            border-radius: 8px;
+            box-shadow: 0 3px 10px rgb(0 0 0 / 0.1);
+            max-width: 800px;
+            margin: auto;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Projet Stabilisation Laser</h1>
+
+        <p><strong>Objectif du projet :</strong></p>
+        <ul>
+            <li>Ce projet visait à maintenir la stabilité d’un faisceau laser en temps réel, malgré les vibrations et mouvements perturbateurs. Pour cela, j’ai développé un système automatisé qui ajuste constamment la position du laser grâce à un actionneur piézoélectrique.</li>
+        </ul>
+
+        <p><strong>Pourquoi un script et l’automatisation ?</strong></p>
+        <ul>
+            <li>La stabilisation du laser nécessite des corrections très rapides et précises, impossibles à réaliser manuellement. J’ai donc utilisé un script Arduino pour automatiser ces ajustements :</li>
+            <li>Le script analyse en continu les signaux provenant des capteurs qui détectent les écarts de position du faisceau.</li>
+            <li>Il applique ensuite un régulateur PI (Proportionnel-Intégral) pour calculer les corrections nécessaires.</li>
+            <li>Ces corrections sont transmises via une sortie PWM au piézoélectrique, qui modifie la position du laser en temps réel.</li>
+            <li>Cette automatisation permet de réagir immédiatement aux variations, garantissant une stabilité optimale et évitant les erreurs humaines ou délais de réaction trop longs.</li>
+        </ul>
+
+        <p><strong>Outils et technologies utilisés :</strong></p>
+        <ul>
+            <li>Arduino : microcontrôleur programmable pour gérer l’ensemble du processus de lecture des capteurs, calcul des corrections et pilotage du piézo.</li>
+            <li>Actionneur piézoélectrique : pour effectuer des ajustements très fins et rapides.</li>
+            <li>PWM (modulation de largeur d’impulsion) : pour contrôler précisément la tension envoyée au piézo.</li>
+            <li>Régulateur PI : algorithme de contrôle qui permet une réponse stable et efficace face aux perturbations.</li>
+            <li>FreeCAD : conception de supports mécaniques précis assurant la stabilité physique du système.</li>
+        </ul>
+
+        <p><strong>Résultat :</strong></p>
+        <ul>
+            <li>Grâce à ce projet, j’ai pu développer des compétences solides en programmation embarquée, électronique de précision et modélisation 3D, tout en apprenant à gérer un projet sur le long terme avec rigueur et autonomie. Ce travail m’a confirmé mon intérêt pour le développement de solutions techniques innovantes et précises.</li>
+        </ul>
+    </div>
+</body>
+</html>
+
+

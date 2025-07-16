@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <link rel="stylesheet" href="styles/projet.css" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Projet Traqueur Solaire</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            line-height: 1.6;
+            background-color: #f9f9f9;
+            color: #333;
+        }
+        h1 {
+            color: #2c3e50;
+            border-bottom: 3px solid #2980b9;
+            padding-bottom: 10px;
+        }
+        strong {
+            color: #2980b9;
+        }
+        ul {
+            margin-top: 0;
+            margin-bottom: 20px;
+        }
+        li {
+            margin-left: 20px;
+            margin-bottom: 5px;
+        }
+        .container {
+            background-color: white;
+            padding: 25px 30px;
+            border-radius: 8px;
+            box-shadow: 0 3px 10px rgb(0 0 0 / 0.1);
+            max-width: 800px;
+            margin: auto;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Projet Traqueur Solaire</h1>
+
+        <p><strong>Objectif du projet :</strong></p>
+        <ul>
+            <li>Ce projet consistait à développer un système automatisé capable de suivre la trajectoire du soleil pour maximiser la captation de lumière solaire et optimiser la production d’énergie.</li>
+        </ul>
+
+        <p><strong>Pourquoi un script et l’automatisation ?</strong></p>
+        <ul>
+            <li>La trajectoire du soleil varie constamment et manuellement, il serait impossible de réorienter les panneaux avec la précision et la rapidité nécessaires. J’ai donc programmé un système automatisé basé sur Arduino qui analyse les informations des capteurs et ajuste la position des panneaux en temps réel :</li>
+            <li>Les capteurs LDR (photocellules) mesurent l’intensité lumineuse sur plusieurs points.</li>
+            <li>Le script compare ces valeurs pour déterminer la direction où la lumière est la plus forte.</li>
+            <li>En fonction des résultats, il commande deux servomoteurs qui orientent les panneaux sur deux axes (horizontal et vertical).</li>
+            <li>Le processus se répète continuellement pour garantir que les panneaux restent toujours alignés avec le soleil.</li>
+            <li>Cette automatisation optimise l’efficacité énergétique en maximisant l’exposition au rayonnement solaire sans intervention humaine, réduisant ainsi les pertes et augmentant la production.</li>
+        </ul>
+
+        <p><strong>Outils et technologies utilisés :</strong></p>
+        <ul>
+            <li>Capteurs LDR : pour détecter l’intensité lumineuse sur différentes zones.</li>
+            <li>Arduino : microcontrôleur programmé pour lire les capteurs, analyser les données et piloter les servomoteurs.</li>
+            <li>Servomoteurs : moteurs précis permettant d’orienter les panneaux sur deux axes.</li>
+            <li>Algorithme de comparaison : script qui identifie la direction la plus lumineuse et ajuste la position des panneaux en conséquence.</li>
+            <li>Support mécanique : structure conçue pour fixer solidement les panneaux et les capteurs tout en permettant leur rotation fluide.</li>
+        </ul>
+
+        <p><strong>Résultat :</strong></p>
+        <ul>
+            <li>Ce projet m’a permis de renforcer mes compétences en programmation embarquée, algorithmique, électronique, ainsi qu’en conception assistée par ordinateur, tout en contribuant à une solution durable et efficace pour l’énergie renouvelable.</li>
+        </ul>
+    </div>
+</body>
+</html>
